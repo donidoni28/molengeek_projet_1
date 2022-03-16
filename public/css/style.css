@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(/public/images/background/Abstract\ Green\ Waves\ Vector\ Background.jpg) repeat-y;
+    background: url(/public/images/background/cgpq43sc8kk536kthmgf6q9bl2-e00e89f0be6777316b59169af5d417b2.png) ;
     background-size: 100%;
     background-color: black;
     color: white;
@@ -16,4 +16,9 @@ ul {
 
 a {
     text-decoration: none;
+}
+#footer{
+    border-top: 1px solid #fb1;
+    background: black;
+    padding-top: 1em;
 }
