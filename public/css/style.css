@@ -4,7 +4,8 @@
 }
 
 body {
-    background: url(/public/images/background/Green-Aesthetic-Backgrounds-1920x1080-1.jpg);
+    background: url(/public/images/background/Abstract\ Green\ Waves\ Vector\ Background.jpg) repeat-y;
+    background-size: 100%;
     background-color: black;
     color: white;
 }
