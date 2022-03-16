@@ -1,15 +1,18 @@
-*{
+* {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif0;
 }
-body{
+
+body {
     background: url(/public/images/background/Green-Aesthetic-Backgrounds-1920x1080-1.jpg);
-    background-color: black ;
+    background-color: black;
     color: white;
 }
+
 ul {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
