@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><i class="fa-brands fa-ethereum"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/public/pages/contact">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/public/pages/carousel.html">Carousel</a>
+                        </li>
+
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content" class="container pt-5">
+        <section>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/public/images/téléchargement.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/public/images/téléchargement (3).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/public/images/téléchargement (2).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/public/images/téléchargement (4).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+        <section>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <section id="footer">
+        <!-- DEBUT DE LA SECTION HEADER -->
+        <footer>
+            <div id="social-network">...</div>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2 row-sm-2 ">
+                            <!-- TOP-LEFT -->
+                            <h3><span>Use Ethereum</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Ethereum wallets</span></a></li>
+                                <li><a href="#"><span>Get ETH</span></a></li>
+                                <li><a href="#"><span>Decentralized applications (dapps)</span></a></li>
+                                <li><a href="#"><span>Stablecoins</span></a></li>
+                                <li><a href="#"><span>Stake ETH</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-2 row-sm-2 ">
+                            <!-- TOP-CENTER -->
+                            <h3><span>Learn</span></h3>
+                            <ul>
+                                <li><a href="#"><span> What is Ethereum?</span></a></li>
+                                <li><a href="#"><span> What is ether (ETH)?</span></a></li>
+                                <li><a href="#"><span> Community guides and resources</span></a></li>
+                                <li><a href="#"><span> History of Ethereum</span></a></li>
+                                <li><a href="#"><span> Ethereum Whitepaper</span></a></li>
+                                <li><a href="#"><span> Ethereum upgrades</span></a></li>
+                                <li><a href="#"><span> Ethereum security and scam prevention</span></a></li>
+                                <li><a href="#"><span> Ethereum glossary</span></a></li>
+                                <li><a href="#"><span> Ethereum governance</span></a></li>
+                                <li><a href="#"><span> Blockchain bridges</span></a></li>
+                                <li><a href="#"><span> Ethereum energy consumption</span></a></li>
+                                <li><a href="#"><span> Ethereum Improvement Proposals</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-2 row-sm-2 ">
+                            <!-- TOP-RIGHT -->
+                            <h3><span>Developers</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Get started</span></a></li>
+                                <li><a href="#"><span>Documentation</span></a></li>
+                                <li><a href="#"><span>Tutorials</span></a></li>
+                                <li><a href="#"><span>Learn by coding</span></a></li>
+                                <li><a href="#"><span>Set up local environment</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-2 row-sm-2 ">
+                            <!-- BOTTOM-LEFT -->
+                            <h3><span>Ecosystem</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Community hub</span></a></li>
+                                <li><a href="#"><span>Ethereum Foundation</span></a></li>
+                                <li><a href="#"><span>Ethereum Foundation Blog</span></a></li>
+                                <li><a href="#"><span>Ecosystem Support Program</span></a></li>
+                                <li><a href="#"><span>Ecosystem Grant Programs</span></a></li>
+                                <li><a href="#"><span>Ethereum brand assets</span></a></li>
+                                <li><a href="#"><span>Devcon</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-2 row-sm-2 ">
+                            <!-- BOTTOM-CENTER -->
+                            <h3><span>Enterprise</span></h3>
+                            <ul>
+                                <li><a href="#"><span>Mainnet Ethereum</span></a></li>
+                                <li><a href="#"><span>Private Ethereum</span></a></li>
+                                <li><a href="#"><span>Enterprise</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-2 row-sm-2 ">
+                            <!-- BOTTOM-RIGHT -->
+                            <h3><span></span></h3>
+                            <ul>
+                                <li><a href="#"><span>About us</span></a></li>
+                                <li><a href="#"><span>Jobs</span></a></li>
+                                <li><a href="#"><span>Contributing</span></a></li>
+                                <li><a href="#"><span>Language support</span></a></li>
+                                <li><a href="#"><span>Privacy policy</span></a></li>
+                                <li><a href="#"><span>Terms of use</span></a></li>
+                                <li><a href="#"><span>Cookie policy</span></a></li>
+                                <li><a href="#"><span>Contact</span></a></li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!-- GRID CONTAINER -->
+
+            </div>
+        </footer>
+    </section> <!-- FIN DE LA SECTION HEADER -->
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/0f04e7ed22.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP JS BUNDLE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
